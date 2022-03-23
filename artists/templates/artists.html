@@ -6,10 +6,10 @@
   <div class="card-header text-white bg-dark  text-start"><i class="fas fa-bomb m-2"></i>Artists</div>
   
   <div class="card-body m-3">  
-    <div class="alert alert-primary pb-3 mb-3"><a href="/"></a></div>
+    <div class="alert alert-primary pb-3 mb-3">
     
     {%  if artist_data  %}
-      <table id="table_id" class="table table-striped table-hover p-2 m-3" style="width:100%">
+      <table id="table_id" class="table table-striped table-hover p-2 m-3 display" style="width:100%">
         <thead>
             <tr>
                 <th>ID</th>
@@ -32,6 +32,8 @@
           {% endfor %}  
         </tbody>
       </table>
+
+    </div>
   
     {% else %}
       <h3> You don't have any data</h3>

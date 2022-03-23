@@ -2,54 +2,52 @@
 
 {% block content %}
 {% load static %}
-<div class="row p-0 m-0">
-  <!-- card -->
-  <div class="card shadow p-0 m-0">
-    <div class="card-header text-white bg-dark text-start">Welcome</div>
-    <div class="card-body m-3">  
-      <div class="alert alert-primary pb-3 mb-3">
-        
+<div class="row">  
+  <div class="col-12 p-1 m-0">
+    <!-- card -->
+    <div class="card shadow p-0 m-0">
+      <div class="card-header text-white bg-dark text-start"><i class="fas fa-bomb"></i></div>
+      <div class="card-body m-2">  
+        <img src="{% static 'wallpaper/wp4512652-outrun-sunset-4k-wallpapers.jpg' %}" height="320" />
+        <img src="{% static 'wallpaper/wp4512652-outrun-sunset-4k-wallpapers.jpg' %}" height="320" />
       </div>
-
-      </div>     
     </div>
   </div>
-  
 </div>
 
-<div class="row p-0 m-1"></div>
-
-<div class="row pb-2 mt-1">
-  <div class="col-4">
-    <!-- card -->
-    <div class="card shadow p-0 m-0">
-      <div class="card-header text-white bg-dark text-start">Welcome</div>
-      <div class="card-body m-3">  
-        <div class="alert alert-primary pb-3 mb-3">Note:</div>
-      </div>
-    </div>
-    
-  </div>
-
-  <div class="col-4">
-    <!-- card -->
-    <div class="card shadow p-0 m-0">
-      <div class="card-header text-white bg-dark text-start">Welcome</div>
-      <div class="card-body m-3">  
-        <div class="alert alert-primary pb-3 mb-3">Note:</div>
+<div class="row">
+  <div class="col-12 p-1 m-0"></div>
+</div>
+  
+<div class="row">
+  <div class="col-4 p-1 m-0">
+    <!-- card 1 -->
+    <div class="card shadow">
+      <div class="card-header text-white bg-dark text-start"><i class="fas fa-bomb"></i></div>
+      <div class="card-body m-2">  
+        <img src="{% static 'illbomb/images/188690_10150170611421155_2973344_n.jpg' %}" height="350" />
       </div>
     </div>
   </div>
 
-  <div class="col-4">
-    <!-- card -->
-    <div class="card shadow p-0 m-0">
-      <div class="card-header text-white bg-dark text-start">Welcome</div> 
-      <div class="card-body m-3">  
-        <div class="alert alert-primary pb-3 mb-3">Note:</div>   
+  <div class="col-4 p-1 m-0">
+    <!-- card 2 -->
+    <div class="card shadow">
+      <div class="card-header text-white bg-dark text-start"><i class="fas fa-bomb"></i></div>
+      <div class="card-body m-2">  
+        <img src="{% static 'illbomb/images/188690_10150170611421155_2973344_n.jpg' %}" height="350" />
       </div>
     </div>
   </div>
 
+  <div class="col-4 p-1 m-0">
+    <!-- card 3 -->
+    <div class="card shadow">
+      <div class="card-header text-white bg-dark text-start"><i class="fas fa-bomb"></i></div> 
+      <div class="card-body m-2">  
+        <img src="{% static 'illbomb/images/188690_10150170611421155_2973344_n.jpg' %}" height="350" />
+      </div>
+    </div>
+  </div>
 </div>
 {% endblock %}
